@@ -1,0 +1,16 @@
+
+    main {
+div {
+    .seccion_con_fondo {
+        background-image: linear-gradient($background_gradient-section);
+    }
+}
+      
+        .zoom {
+            &:hover {
+                transform: scale(1.2);
+                box-shadow: ($tamaño_de_sombra*2) $tamaño_de_sombra $tamaño_de_sombra rgb(156, 156, 156);
+                transition-duration: 1s;
+            }
+         }
+        }

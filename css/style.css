@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Gummy";
+  src: url("../assets/Fonts/gummy_bears/Gummy Bears.otf"); }
+
+@font-face {
+  font-family: "Satisfy";
+  src: url("../assets/Fonts/Satisfy/Satisfy-Regular.ttf"); }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: black; }
+
+body {
+  font-family: "Gummy"; }
+  body a {
+    text-decoration: none; }
+  body .btn {
+    background-color: #f8abb9 !important;
+    color: black !important; }
+    body .btn:hover {
+      background-color: black !important;
+      color: white !important; }
+  body header #header {
+    background-image: linear-gradient(#fabfb7, #fdf9c4, #ffda9e, white);
+    height: 15%; }
+    body header #header #id {
+      font-family: "Satisfy"; }
+  body main div .seccion_con_fondo {
+    background-image: linear-gradient(#fabfb777, #ffda9e73, rgba(221, 243, 221, 0.436), #aedeed7b, rgba(220, 169, 243, 0.422), rgba(236, 129, 250, 0.468)); }
+  body main .zoom:hover {
+    transform: scale(1.2);
+    box-shadow: 10px 5px 5px #9c9c9c;
+    transition-duration: 1s; }
+  body footer {
+    background-image: linear-gradient(white, #c5c6c8, #5bcef4);
+    height: 10%;
+    bottom: 0; }
+    body footer div .icono {
+      width: 40px;
+      height: 40px; }
+
+@media screen and (max-width: 576px) {
+  #logo {
+    width: 15vw !important; } }
+
+@media screen and (min-width: 577px) {
+  #logo {
+    width: 7vw !important; } }

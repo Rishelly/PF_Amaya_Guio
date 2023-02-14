@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <header>
+        <img src="../assets/images/britanico-de-pelo-corto.png" alt="Icono de gato">
+        <nav>
+            <ul class="reseteoTextos">
+                <a href="../index.html"><li>HOME</li></a>
+                <a href="./conocenos.html"><li>CONOCENOS</li></a>
+                <a href="./emergencias.html"><li>EMERGENCIAS</li></a>
+            </ul>
+        </nav>
+        
+    </header>
+    
+<main >
+    <h1 class="ct">CONTACTANOS</h1>
+    <form action="" method="get" enctype="text/plain" class="ptc" id="formulario">
+      
+      <fieldset>
+        <legend class="cst">DATOS PERSONALES</legend>
+
+        <div>
+            <label for="Nombre">Nombre completo:</label>
+            <input type="text" id="Nombre">
+        </div>
+
+        <div>
+            <label for="Telefono">Teléfono:</label>
+            <input type="number" id="Telefono" placeholder="Sin espacios">
+        </div>
+        
+        <p>Zona:</p>
+        <select name="Zona" id="Zona">
+            <option value="caba">Ciudad Autónoma de Buenos Aires</option>
+            <option value="norte">Zona Norte</option>
+            <option value="sur">Zona Sur</option>
+            <option value="oeste">Zona Oeste</option>
+        </select>
+        
+        <div>
+            <label for="Direccion">Dirección:</label>
+            <input type="text" id="Direccion" placeholder="Opcional">
+        </div>
+
+        <p>¿Es mayor de edad?</p>
+        <div>
+            <label><input type="radio" name="edad" value="si" checked>Sí</label>
+        </div>
+        <div>
+            <label><input type="radio" name="edad" value="no">No</label>
+        </div>
+      </fieldset>
+      
+      <fieldset>
+        <legend class="cst"> Quiero:</legend>
+
+        <div>
+            <label for="adoptar"><input type="checkbox" name="quiero" id="" value="adoptar">Adoptar</label>
+            <label for="amadrinar"><input type="checkbox" name="quiero" id="" value="amadrinar">Ser madrina/padrino</label>
+           <br>
+            <label for="transitar"><input type="checkbox" name="quiero" id="" value="transitar">Transitar</label>
+            <label for="transportar"><input type="checkbox" name="quiero" id="" value="transportar">Transportar</label>
+        </div>
+        
+        <div>
+            <p>Quiero saber acerca del siguiente gatito:</p>
+            <textarea name="preguntas" id="preguntas" cols="10" rows="1"></textarea>
+        </div>
+              
+      </fieldset>
+        
+      <fieldset>
+        <legend class="cst">Ayudar a:</legend>
+
+        <select name="gatitos" id="opcionesGatitos">
+            <option value="personas">Pagar las cuentas</option>
+            <option value="gatito 1">Gatito muy enfermo</option>
+            <option value="gatito 2">Gatitos desauciados</option>
+            <option value="otro">Otro</option>
+        </select>
+        <div>
+          <input type="submit" value="Enviar">
+          <input type="reset">
+        </div>
+      </fieldset>
+     
+
+    </form>
+
+    <br><br><br><br><br>
+</main>
+
+<footer>
+    <div>
+        <img src="../assets/Icons/instagram.png" alt="Icono de instagram">@SALVAUNGATITO
+        <img src="../assets/Icons/facebook.png" alt="Icono de facebook">Salva Un Gatito
+        <img src="../assets/Icons/whatsapp.png" alt="Icono de whatsapp">  +00 000 000 00
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+@mixin blanqueo {
+margin: 0;
+padding: 0;
+list-style-type: none;
+color: black;
+}
+
+@mixin tamaño_logo ($width) {
+    #logo {
+        width: $width !important;
+    }
+}
